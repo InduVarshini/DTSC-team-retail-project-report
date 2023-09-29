@@ -3,7 +3,7 @@
 <head><meta charset="utf-8" />
 <meta name="viewport" content="width=device-width, initial-scale=1.0">
 
-<title>Project_Report_Retail</title><script src="https://cdnjs.cloudflare.com/ajax/libs/require.js/2.1.10/require.min.js"></script>
+<title>Project Report - Team Retail</title><script src="https://cdnjs.cloudflare.com/ajax/libs/require.js/2.1.10/require.min.js"></script>
 
 
 
@@ -14742,8 +14742,212 @@ body[data-format='mobile'] .jp-OutputArea-child .jp-OutputArea-output {
 <span class="sd">info() : summary of data</span>
 <span class="sd">'''</span>
 <span class="n">womens_raw_data</span> <span class="o">=</span> <span class="n">pd</span><span class="o">.</span><span class="n">read_csv</span><span class="p">(</span><span class="s1">'https://query.data.world/s/5ieff32pjxf65ikv4hj2oqjptx7spo?dws=00000'</span><span class="p">)</span>
-<span class="nb">print</span><span class="p">(</span><span class="n">womens_raw_data</span><span class="o">.</span><span class="n">head</span><span class="p">())</span>
-<span class="nb">print</span><span class="p">(</span><span class="n">womens_raw_data</span><span class="o">.</span><span class="n">info</span><span class="p">())</span>
+<span class="n">womens_raw_data</span><span class="o">.</span><span class="n">head</span><span class="p">()</span>
+</pre></div>
+
+     </div>
+</div>
+</div>
+</div>
+
+<div class="jp-Cell-outputWrapper">
+<div class="jp-Collapser jp-OutputCollapser jp-Cell-outputCollapser">
+</div>
+
+
+<div class="jp-OutputArea jp-Cell-outputArea">
+
+<div class="jp-OutputArea-child">
+
+    
+    <div class="jp-OutputPrompt jp-OutputArea-prompt">Out[2]:</div>
+
+
+
+<div class="jp-RenderedHTMLCommon jp-RenderedHTML jp-OutputArea-output jp-OutputArea-executeResult" data-mime-type="text/html">
+<div>
+<style scoped>
+    .dataframe tbody tr th:only-of-type {
+        vertical-align: middle;
+    }
+
+    .dataframe tbody tr th {
+        vertical-align: top;
+    }
+
+    .dataframe thead th {
+        text-align: right;
+    }
+</style>
+<table border="1" class="dataframe">
+  <thead>
+    <tr style="text-align: right;">
+      <th></th>
+      <th>id</th>
+      <th>asins</th>
+      <th>brand</th>
+      <th>categories</th>
+      <th>colors</th>
+      <th>count</th>
+      <th>dateAdded</th>
+      <th>dateUpdated</th>
+      <th>descriptions</th>
+      <th>dimension</th>
+      <th>...</th>
+      <th>prices.sourceURLs</th>
+      <th>prices.warranty</th>
+      <th>quantities</th>
+      <th>reviews</th>
+      <th>sizes</th>
+      <th>skus</th>
+      <th>sourceURLs</th>
+      <th>upc</th>
+      <th>websiteIDs</th>
+      <th>weight</th>
+    </tr>
+  </thead>
+  <tbody>
+    <tr>
+      <th>0</th>
+      <td>AVpfBXx21cnluZ0-cKxs</td>
+      <td>NaN</td>
+      <td>Zoot</td>
+      <td>Shoes,Clothing,Women's Shoes,All Women's Shoes</td>
+      <td>Blue,Multicolor</td>
+      <td>NaN</td>
+      <td>2016-11-11T09:49:00Z</td>
+      <td>2016-11-11T09:49:00Z</td>
+      <td>[{"dateSeen":["2016-11-11T09:49:00Z"],"sourceU...</td>
+      <td>NaN</td>
+      <td>...</td>
+      <td>https://www.walmart.com/ip/Zoot-TT-TRAINER-2.0...</td>
+      <td>NaN</td>
+      <td>NaN</td>
+      <td>NaN</td>
+      <td>10,9</td>
+      <td>NaN</td>
+      <td>https://www.walmart.com/ip/Zoot-TT-TRAINER-2.0...</td>
+      <td>NaN</td>
+      <td>NaN</td>
+      <td>NaN</td>
+    </tr>
+    <tr>
+      <th>1</th>
+      <td>AVpfBXx21cnluZ0-cKxs</td>
+      <td>NaN</td>
+      <td>Zoot</td>
+      <td>Shoes,Clothing,Women's Shoes,All Women's Shoes</td>
+      <td>Blue,Multicolor</td>
+      <td>NaN</td>
+      <td>2016-11-11T09:49:00Z</td>
+      <td>2016-11-11T09:49:00Z</td>
+      <td>[{"dateSeen":["2016-11-11T09:49:00Z"],"sourceU...</td>
+      <td>NaN</td>
+      <td>...</td>
+      <td>https://www.walmart.com/ip/Zoot-TT-TRAINER-2.0...</td>
+      <td>NaN</td>
+      <td>NaN</td>
+      <td>NaN</td>
+      <td>10,9</td>
+      <td>NaN</td>
+      <td>https://www.walmart.com/ip/Zoot-TT-TRAINER-2.0...</td>
+      <td>NaN</td>
+      <td>NaN</td>
+      <td>NaN</td>
+    </tr>
+    <tr>
+      <th>2</th>
+      <td>AVpfBXx21cnluZ0-cKxs</td>
+      <td>NaN</td>
+      <td>Zoot</td>
+      <td>Shoes,Clothing,Women's Shoes,All Women's Shoes</td>
+      <td>Blue,Multicolor</td>
+      <td>NaN</td>
+      <td>2016-11-11T09:49:00Z</td>
+      <td>2016-11-11T09:49:00Z</td>
+      <td>[{"dateSeen":["2016-11-11T09:49:00Z"],"sourceU...</td>
+      <td>NaN</td>
+      <td>...</td>
+      <td>https://www.walmart.com/ip/Zoot-TT-TRAINER-2.0...</td>
+      <td>NaN</td>
+      <td>NaN</td>
+      <td>NaN</td>
+      <td>10,9</td>
+      <td>NaN</td>
+      <td>https://www.walmart.com/ip/Zoot-TT-TRAINER-2.0...</td>
+      <td>NaN</td>
+      <td>NaN</td>
+      <td>NaN</td>
+    </tr>
+    <tr>
+      <th>3</th>
+      <td>AVpfBXx21cnluZ0-cKxs</td>
+      <td>NaN</td>
+      <td>Zoot</td>
+      <td>Shoes,Clothing,Women's Shoes,All Women's Shoes</td>
+      <td>Blue,Multicolor</td>
+      <td>NaN</td>
+      <td>2016-11-11T09:49:00Z</td>
+      <td>2016-11-11T09:49:00Z</td>
+      <td>[{"dateSeen":["2016-11-11T09:49:00Z"],"sourceU...</td>
+      <td>NaN</td>
+      <td>...</td>
+      <td>https://www.walmart.com/ip/Zoot-TT-TRAINER-2.0...</td>
+      <td>NaN</td>
+      <td>NaN</td>
+      <td>NaN</td>
+      <td>10,9</td>
+      <td>NaN</td>
+      <td>https://www.walmart.com/ip/Zoot-TT-TRAINER-2.0...</td>
+      <td>NaN</td>
+      <td>NaN</td>
+      <td>NaN</td>
+    </tr>
+    <tr>
+      <th>4</th>
+      <td>AVpfEqFRLJeJML431x7w</td>
+      <td>NaN</td>
+      <td>Wild Pair</td>
+      <td>Shoes,Women's Shoes,Clothing,All Women's Shoes</td>
+      <td>Brown</td>
+      <td>NaN</td>
+      <td>2016-11-16T12:56:36Z</td>
+      <td>2016-11-16T12:56:36Z</td>
+      <td>[{"dateSeen":["2016-11-16T12:56:36Z"],"sourceU...</td>
+      <td>NaN</td>
+      <td>...</td>
+      <td>https://www.walmart.com/ip/Wild-Pair-Colfax-Wo...</td>
+      <td>NaN</td>
+      <td>NaN</td>
+      <td>NaN</td>
+      <td>8.5,7,7.5,8</td>
+      <td>NaN</td>
+      <td>https://www.walmart.com/ip/Wild-Pair-Colfax-Wo...</td>
+      <td>7.63181E+11</td>
+      <td>NaN</td>
+      <td>NaN</td>
+    </tr>
+  </tbody>
+</table>
+<p>5 rows × 47 columns</p>
+</div>
+</div>
+
+</div>
+
+</div>
+
+</div>
+
+</div><div class="jp-Cell jp-CodeCell jp-Notebook-cell   ">
+<div class="jp-Cell-inputWrapper">
+<div class="jp-Collapser jp-InputCollapser jp-Cell-inputCollapser">
+</div>
+<div class="jp-InputArea jp-Cell-inputArea">
+<div class="jp-InputPrompt jp-InputArea-prompt">In&nbsp;[3]:</div>
+<div class="jp-CodeMirrorEditor jp-Editor jp-InputArea-editor" data-type="inline">
+     <div class="CodeMirror cm-s-jupyter">
+<div class=" highlight hl-ipython3"><pre><span></span><span class="n">womens_raw_data</span><span class="o">.</span><span class="n">info</span><span class="p">()</span>
 </pre></div>
 
      </div>
@@ -14765,64 +14969,7 @@ body[data-format='mobile'] .jp-OutputArea-child .jp-OutputArea-output {
 
 
 <div class="jp-RenderedText jp-OutputArea-output" data-mime-type="text/plain">
-<pre>                     id asins      brand  \
-0  AVpfBXx21cnluZ0-cKxs   NaN       Zoot   
-1  AVpfBXx21cnluZ0-cKxs   NaN       Zoot   
-2  AVpfBXx21cnluZ0-cKxs   NaN       Zoot   
-3  AVpfBXx21cnluZ0-cKxs   NaN       Zoot   
-4  AVpfEqFRLJeJML431x7w   NaN  Wild Pair   
-
-                                       categories           colors  count  \
-0  Shoes,Clothing,Women&#39;s Shoes,All Women&#39;s Shoes  Blue,Multicolor    NaN   
-1  Shoes,Clothing,Women&#39;s Shoes,All Women&#39;s Shoes  Blue,Multicolor    NaN   
-2  Shoes,Clothing,Women&#39;s Shoes,All Women&#39;s Shoes  Blue,Multicolor    NaN   
-3  Shoes,Clothing,Women&#39;s Shoes,All Women&#39;s Shoes  Blue,Multicolor    NaN   
-4  Shoes,Women&#39;s Shoes,Clothing,All Women&#39;s Shoes            Brown    NaN   
-
-              dateAdded           dateUpdated  \
-0  2016-11-11T09:49:00Z  2016-11-11T09:49:00Z   
-1  2016-11-11T09:49:00Z  2016-11-11T09:49:00Z   
-2  2016-11-11T09:49:00Z  2016-11-11T09:49:00Z   
-3  2016-11-11T09:49:00Z  2016-11-11T09:49:00Z   
-4  2016-11-16T12:56:36Z  2016-11-16T12:56:36Z   
-
-                                        descriptions dimension  ...  \
-0  [{&#34;dateSeen&#34;:[&#34;2016-11-11T09:49:00Z&#34;],&#34;sourceU...       NaN  ...   
-1  [{&#34;dateSeen&#34;:[&#34;2016-11-11T09:49:00Z&#34;],&#34;sourceU...       NaN  ...   
-2  [{&#34;dateSeen&#34;:[&#34;2016-11-11T09:49:00Z&#34;],&#34;sourceU...       NaN  ...   
-3  [{&#34;dateSeen&#34;:[&#34;2016-11-11T09:49:00Z&#34;],&#34;sourceU...       NaN  ...   
-4  [{&#34;dateSeen&#34;:[&#34;2016-11-16T12:56:36Z&#34;],&#34;sourceU...       NaN  ...   
-
-                                   prices.sourceURLs prices.warranty  \
-0  https://www.walmart.com/ip/Zoot-TT-TRAINER-2.0...             NaN   
-1  https://www.walmart.com/ip/Zoot-TT-TRAINER-2.0...             NaN   
-2  https://www.walmart.com/ip/Zoot-TT-TRAINER-2.0...             NaN   
-3  https://www.walmart.com/ip/Zoot-TT-TRAINER-2.0...             NaN   
-4  https://www.walmart.com/ip/Wild-Pair-Colfax-Wo...             NaN   
-
-   quantities reviews        sizes skus  \
-0         NaN     NaN         10,9  NaN   
-1         NaN     NaN         10,9  NaN   
-2         NaN     NaN         10,9  NaN   
-3         NaN     NaN         10,9  NaN   
-4         NaN     NaN  8.5,7,7.5,8  NaN   
-
-                                          sourceURLs          upc websiteIDs  \
-0  https://www.walmart.com/ip/Zoot-TT-TRAINER-2.0...          NaN        NaN   
-1  https://www.walmart.com/ip/Zoot-TT-TRAINER-2.0...          NaN        NaN   
-2  https://www.walmart.com/ip/Zoot-TT-TRAINER-2.0...          NaN        NaN   
-3  https://www.walmart.com/ip/Zoot-TT-TRAINER-2.0...          NaN        NaN   
-4  https://www.walmart.com/ip/Wild-Pair-Colfax-Wo...  7.63181E+11        NaN   
-
-  weight  
-0    NaN  
-1    NaN  
-2    NaN  
-3    NaN  
-4    NaN  
-
-[5 rows x 47 columns]
-&lt;class &#39;pandas.core.frame.DataFrame&#39;&gt;
+<pre>&lt;class &#39;pandas.core.frame.DataFrame&#39;&gt;
 RangeIndex: 19045 entries, 0 to 19044
 Data columns (total 47 columns):
  #   Column               Non-Null Count  Dtype  
@@ -14876,7 +15023,6 @@ Data columns (total 47 columns):
  46  weight               830 non-null    object 
 dtypes: float64(5), object(42)
 memory usage: 6.8+ MB
-None
 </pre>
 </div>
 </div>
@@ -14901,7 +15047,7 @@ None
 <div class="jp-Collapser jp-InputCollapser jp-Cell-inputCollapser">
 </div>
 <div class="jp-InputArea jp-Cell-inputArea">
-<div class="jp-InputPrompt jp-InputArea-prompt">In&nbsp;[3]:</div>
+<div class="jp-InputPrompt jp-InputArea-prompt">In&nbsp;[4]:</div>
 <div class="jp-CodeMirrorEditor jp-Editor jp-InputArea-editor" data-type="inline">
      <div class="CodeMirror cm-s-jupyter">
 <div class=" highlight hl-ipython3"><pre><span></span><span class="k">def</span> <span class="nf">null_check</span><span class="p">(</span><span class="n">df</span><span class="p">):</span>
@@ -14919,7 +15065,7 @@ None
   <span class="k">return</span> <span class="n">missing_values_summary</span>
 
 <span class="n">missing_values_summarized</span> <span class="o">=</span> <span class="n">null_check</span><span class="p">(</span><span class="n">womens_raw_data</span><span class="p">)</span>
-<span class="nb">print</span><span class="p">(</span><span class="n">missing_values_summarized</span><span class="p">)</span>
+<span class="n">missing_values_summarized</span>
 </pre></div>
 
      </div>
@@ -14937,60 +15083,274 @@ None
 <div class="jp-OutputArea-child">
 
     
-    <div class="jp-OutputPrompt jp-OutputArea-prompt"></div>
+    <div class="jp-OutputPrompt jp-OutputArea-prompt">Out[4]:</div>
 
 
-<div class="jp-RenderedText jp-OutputArea-output" data-mime-type="text/plain">
-<pre>                     #missing values  %of missing values
-isbn                           19045          100.000000
-count                          19045          100.000000
-flavors                        19045          100.000000
-websiteIDs                     19044           99.994749
-quantities                     19043           99.989499
-prices.source                  19041           99.978997
-prices.flavor                  19039           99.968496
-prices.count                   19038           99.963245
-prices.warranty                19025           99.894986
-prices.availability            18910           99.291153
-prices.size                    18537           97.332633
-prices.color                   18498           97.127855
-prices.returnPolicy            18293           96.051457
-weight                         18215           95.641901
-reviews                        18031           94.675768
-asins                          16837           88.406406
-dimension                      16627           87.303754
-prices.shipping                14482           76.040956
-prices.offer                   12192           64.016802
-skus                           11961           62.803886
-sizes                          10776           56.581780
-manufacturer                   10389           54.549751
-ean                             9229           48.458913
-upc                             8374           43.969546
-descriptions                    8265           43.397217
-colors                          7156           37.574166
-prices.condition                6817           35.794172
-merchants                       5357           28.128118
-features                        4937           25.922814
-prices.merchant                 4751           24.946180
-manufacturerNumber              3142           16.497768
-imageURLs                       1205            6.327120
-brand                            633            3.323707
-prices.sourceURLs                 11            0.057758
-sourceURLs                        11            0.057758
-prices.currency                    9            0.047256
-prices.isSale                      6            0.031504
-prices.dateSeen                    4            0.021003
-prices.dateAdded                   4            0.021003
-prices.amountMin                   1            0.005251
-dateAdded                          0            0.000000
-dateUpdated                        0            0.000000
-categories                         0            0.000000
-keys                               0            0.000000
-prices.amountMax                   0            0.000000
-name                               0            0.000000
-id                                 0            0.000000
-</pre>
+
+<div class="jp-RenderedHTMLCommon jp-RenderedHTML jp-OutputArea-output jp-OutputArea-executeResult" data-mime-type="text/html">
+<div>
+<style scoped>
+    .dataframe tbody tr th:only-of-type {
+        vertical-align: middle;
+    }
+
+    .dataframe tbody tr th {
+        vertical-align: top;
+    }
+
+    .dataframe thead th {
+        text-align: right;
+    }
+</style>
+<table border="1" class="dataframe">
+  <thead>
+    <tr style="text-align: right;">
+      <th></th>
+      <th>#missing values</th>
+      <th>%of missing values</th>
+    </tr>
+  </thead>
+  <tbody>
+    <tr>
+      <th>isbn</th>
+      <td>19045</td>
+      <td>100.000000</td>
+    </tr>
+    <tr>
+      <th>count</th>
+      <td>19045</td>
+      <td>100.000000</td>
+    </tr>
+    <tr>
+      <th>flavors</th>
+      <td>19045</td>
+      <td>100.000000</td>
+    </tr>
+    <tr>
+      <th>websiteIDs</th>
+      <td>19044</td>
+      <td>99.994749</td>
+    </tr>
+    <tr>
+      <th>quantities</th>
+      <td>19043</td>
+      <td>99.989499</td>
+    </tr>
+    <tr>
+      <th>prices.source</th>
+      <td>19041</td>
+      <td>99.978997</td>
+    </tr>
+    <tr>
+      <th>prices.flavor</th>
+      <td>19039</td>
+      <td>99.968496</td>
+    </tr>
+    <tr>
+      <th>prices.count</th>
+      <td>19038</td>
+      <td>99.963245</td>
+    </tr>
+    <tr>
+      <th>prices.warranty</th>
+      <td>19025</td>
+      <td>99.894986</td>
+    </tr>
+    <tr>
+      <th>prices.availability</th>
+      <td>18910</td>
+      <td>99.291153</td>
+    </tr>
+    <tr>
+      <th>prices.size</th>
+      <td>18537</td>
+      <td>97.332633</td>
+    </tr>
+    <tr>
+      <th>prices.color</th>
+      <td>18498</td>
+      <td>97.127855</td>
+    </tr>
+    <tr>
+      <th>prices.returnPolicy</th>
+      <td>18293</td>
+      <td>96.051457</td>
+    </tr>
+    <tr>
+      <th>weight</th>
+      <td>18215</td>
+      <td>95.641901</td>
+    </tr>
+    <tr>
+      <th>reviews</th>
+      <td>18031</td>
+      <td>94.675768</td>
+    </tr>
+    <tr>
+      <th>asins</th>
+      <td>16837</td>
+      <td>88.406406</td>
+    </tr>
+    <tr>
+      <th>dimension</th>
+      <td>16627</td>
+      <td>87.303754</td>
+    </tr>
+    <tr>
+      <th>prices.shipping</th>
+      <td>14482</td>
+      <td>76.040956</td>
+    </tr>
+    <tr>
+      <th>prices.offer</th>
+      <td>12192</td>
+      <td>64.016802</td>
+    </tr>
+    <tr>
+      <th>skus</th>
+      <td>11961</td>
+      <td>62.803886</td>
+    </tr>
+    <tr>
+      <th>sizes</th>
+      <td>10776</td>
+      <td>56.581780</td>
+    </tr>
+    <tr>
+      <th>manufacturer</th>
+      <td>10389</td>
+      <td>54.549751</td>
+    </tr>
+    <tr>
+      <th>ean</th>
+      <td>9229</td>
+      <td>48.458913</td>
+    </tr>
+    <tr>
+      <th>upc</th>
+      <td>8374</td>
+      <td>43.969546</td>
+    </tr>
+    <tr>
+      <th>descriptions</th>
+      <td>8265</td>
+      <td>43.397217</td>
+    </tr>
+    <tr>
+      <th>colors</th>
+      <td>7156</td>
+      <td>37.574166</td>
+    </tr>
+    <tr>
+      <th>prices.condition</th>
+      <td>6817</td>
+      <td>35.794172</td>
+    </tr>
+    <tr>
+      <th>merchants</th>
+      <td>5357</td>
+      <td>28.128118</td>
+    </tr>
+    <tr>
+      <th>features</th>
+      <td>4937</td>
+      <td>25.922814</td>
+    </tr>
+    <tr>
+      <th>prices.merchant</th>
+      <td>4751</td>
+      <td>24.946180</td>
+    </tr>
+    <tr>
+      <th>manufacturerNumber</th>
+      <td>3142</td>
+      <td>16.497768</td>
+    </tr>
+    <tr>
+      <th>imageURLs</th>
+      <td>1205</td>
+      <td>6.327120</td>
+    </tr>
+    <tr>
+      <th>brand</th>
+      <td>633</td>
+      <td>3.323707</td>
+    </tr>
+    <tr>
+      <th>prices.sourceURLs</th>
+      <td>11</td>
+      <td>0.057758</td>
+    </tr>
+    <tr>
+      <th>sourceURLs</th>
+      <td>11</td>
+      <td>0.057758</td>
+    </tr>
+    <tr>
+      <th>prices.currency</th>
+      <td>9</td>
+      <td>0.047256</td>
+    </tr>
+    <tr>
+      <th>prices.isSale</th>
+      <td>6</td>
+      <td>0.031504</td>
+    </tr>
+    <tr>
+      <th>prices.dateSeen</th>
+      <td>4</td>
+      <td>0.021003</td>
+    </tr>
+    <tr>
+      <th>prices.dateAdded</th>
+      <td>4</td>
+      <td>0.021003</td>
+    </tr>
+    <tr>
+      <th>prices.amountMin</th>
+      <td>1</td>
+      <td>0.005251</td>
+    </tr>
+    <tr>
+      <th>dateAdded</th>
+      <td>0</td>
+      <td>0.000000</td>
+    </tr>
+    <tr>
+      <th>dateUpdated</th>
+      <td>0</td>
+      <td>0.000000</td>
+    </tr>
+    <tr>
+      <th>categories</th>
+      <td>0</td>
+      <td>0.000000</td>
+    </tr>
+    <tr>
+      <th>keys</th>
+      <td>0</td>
+      <td>0.000000</td>
+    </tr>
+    <tr>
+      <th>prices.amountMax</th>
+      <td>0</td>
+      <td>0.000000</td>
+    </tr>
+    <tr>
+      <th>name</th>
+      <td>0</td>
+      <td>0.000000</td>
+    </tr>
+    <tr>
+      <th>id</th>
+      <td>0</td>
+      <td>0.000000</td>
+    </tr>
+  </tbody>
+</table>
 </div>
+</div>
+
 </div>
 
 </div>
@@ -15013,7 +15373,7 @@ id                                 0            0.000000
 <div class="jp-Collapser jp-InputCollapser jp-Cell-inputCollapser">
 </div>
 <div class="jp-InputArea jp-Cell-inputArea">
-<div class="jp-InputPrompt jp-InputArea-prompt">In&nbsp;[4]:</div>
+<div class="jp-InputPrompt jp-InputArea-prompt">In&nbsp;[5]:</div>
 <div class="jp-CodeMirrorEditor jp-Editor jp-InputArea-editor" data-type="inline">
      <div class="CodeMirror cm-s-jupyter">
 <div class=" highlight hl-ipython3"><pre><span></span><span class="sd">'''</span>
@@ -15048,7 +15408,7 @@ id                                 0            0.000000
 <div class="jp-Collapser jp-InputCollapser jp-Cell-inputCollapser">
 </div>
 <div class="jp-InputArea jp-Cell-inputArea">
-<div class="jp-InputPrompt jp-InputArea-prompt">In&nbsp;[5]:</div>
+<div class="jp-InputPrompt jp-InputArea-prompt">In&nbsp;[6]:</div>
 <div class="jp-CodeMirrorEditor jp-Editor jp-InputArea-editor" data-type="inline">
      <div class="CodeMirror cm-s-jupyter">
 <div class=" highlight hl-ipython3"><pre><span></span><span class="n">df_new</span><span class="o">.</span><span class="n">head</span><span class="p">()</span>
@@ -15069,7 +15429,7 @@ id                                 0            0.000000
 <div class="jp-OutputArea-child">
 
     
-    <div class="jp-OutputPrompt jp-OutputArea-prompt">Out[5]:</div>
+    <div class="jp-OutputPrompt jp-OutputArea-prompt">Out[6]:</div>
 
 
 
@@ -15264,16 +15624,116 @@ id                                 0            0.000000
 <div class="jp-Collapser jp-InputCollapser jp-Cell-inputCollapser">
 </div>
 <div class="jp-InputArea jp-Cell-inputArea">
-<div class="jp-InputPrompt jp-InputArea-prompt">In&nbsp;[6]:</div>
+<div class="jp-InputPrompt jp-InputArea-prompt">In&nbsp;[7]:</div>
 <div class="jp-CodeMirrorEditor jp-Editor jp-InputArea-editor" data-type="inline">
      <div class="CodeMirror cm-s-jupyter">
 <div class=" highlight hl-ipython3"><pre><span></span><span class="sd">'''</span>
 <span class="sd">UPC, EAN, ID and KEYS are some of the identity columns. Understanding which columns is well populated to uniquely identify the row</span>
 <span class="sd">It looks like the ID columns has 10000 unique values which is line with the total rows in the dataframe</span>
 <span class="sd">'''</span>
-<span class="nb">print</span><span class="p">(</span><span class="n">df_new</span><span class="p">[[</span><span class="s1">'upc'</span><span class="p">,</span><span class="s1">'ean'</span><span class="p">,</span><span class="s1">'id'</span><span class="p">,</span><span class="s1">'keys'</span><span class="p">]]</span><span class="o">.</span><span class="n">head</span><span class="p">())</span>
-<span class="nb">print</span><span class="p">(</span><span class="s2">"</span><span class="se">\n</span><span class="s2">"</span><span class="p">)</span>
-<span class="nb">print</span><span class="p">(</span><span class="s2">"UPC Unique_counts"</span><span class="p">,</span><span class="n">df_new</span><span class="p">[</span><span class="s1">'upc'</span><span class="p">]</span><span class="o">.</span><span class="n">nunique</span><span class="p">())</span>
+<span class="n">df_new</span><span class="p">[[</span><span class="s1">'upc'</span><span class="p">,</span><span class="s1">'ean'</span><span class="p">,</span><span class="s1">'id'</span><span class="p">,</span><span class="s1">'keys'</span><span class="p">]]</span><span class="o">.</span><span class="n">head</span><span class="p">()</span>
+</pre></div>
+
+     </div>
+</div>
+</div>
+</div>
+
+<div class="jp-Cell-outputWrapper">
+<div class="jp-Collapser jp-OutputCollapser jp-Cell-outputCollapser">
+</div>
+
+
+<div class="jp-OutputArea jp-Cell-outputArea">
+
+<div class="jp-OutputArea-child">
+
+    
+    <div class="jp-OutputPrompt jp-OutputArea-prompt">Out[7]:</div>
+
+
+
+<div class="jp-RenderedHTMLCommon jp-RenderedHTML jp-OutputArea-output jp-OutputArea-executeResult" data-mime-type="text/html">
+<div>
+<style scoped>
+    .dataframe tbody tr th:only-of-type {
+        vertical-align: middle;
+    }
+
+    .dataframe tbody tr th {
+        vertical-align: top;
+    }
+
+    .dataframe thead th {
+        text-align: right;
+    }
+</style>
+<table border="1" class="dataframe">
+  <thead>
+    <tr style="text-align: right;">
+      <th></th>
+      <th>upc</th>
+      <th>ean</th>
+      <th>id</th>
+      <th>keys</th>
+    </tr>
+  </thead>
+  <tbody>
+    <tr>
+      <th>0</th>
+      <td>NaN</td>
+      <td>NaN</td>
+      <td>AVpfBXx21cnluZ0-cKxs</td>
+      <td>zoot/z130103201090</td>
+    </tr>
+    <tr>
+      <th>1</th>
+      <td>NaN</td>
+      <td>NaN</td>
+      <td>AVpfBXx21cnluZ0-cKxs</td>
+      <td>zoot/z130103201090</td>
+    </tr>
+    <tr>
+      <th>2</th>
+      <td>NaN</td>
+      <td>NaN</td>
+      <td>AVpfBXx21cnluZ0-cKxs</td>
+      <td>zoot/z130103201090</td>
+    </tr>
+    <tr>
+      <th>3</th>
+      <td>NaN</td>
+      <td>NaN</td>
+      <td>AVpfBXx21cnluZ0-cKxs</td>
+      <td>zoot/z130103201090</td>
+    </tr>
+    <tr>
+      <th>4</th>
+      <td>7.63181E+11</td>
+      <td>7.631810e+11</td>
+      <td>AVpfEqFRLJeJML431x7w</td>
+      <td>wildpair/colfaxcog,0763181233352,763181233352</td>
+    </tr>
+  </tbody>
+</table>
+</div>
+</div>
+
+</div>
+
+</div>
+
+</div>
+
+</div><div class="jp-Cell jp-CodeCell jp-Notebook-cell   ">
+<div class="jp-Cell-inputWrapper">
+<div class="jp-Collapser jp-InputCollapser jp-Cell-inputCollapser">
+</div>
+<div class="jp-InputArea jp-Cell-inputArea">
+<div class="jp-InputPrompt jp-InputArea-prompt">In&nbsp;[8]:</div>
+<div class="jp-CodeMirrorEditor jp-Editor jp-InputArea-editor" data-type="inline">
+     <div class="CodeMirror cm-s-jupyter">
+<div class=" highlight hl-ipython3"><pre><span></span><span class="nb">print</span><span class="p">(</span><span class="s2">"UPC Unique_counts"</span><span class="p">,</span><span class="n">df_new</span><span class="p">[</span><span class="s1">'upc'</span><span class="p">]</span><span class="o">.</span><span class="n">nunique</span><span class="p">())</span>
 <span class="nb">print</span><span class="p">(</span><span class="s2">"EAN Unique_counts"</span><span class="p">,</span><span class="n">df_new</span><span class="p">[</span><span class="s1">'ean'</span><span class="p">]</span><span class="o">.</span><span class="n">nunique</span><span class="p">())</span>
 <span class="nb">print</span><span class="p">(</span><span class="s2">"ID Unique_counts"</span><span class="p">,</span><span class="n">df_new</span><span class="p">[</span><span class="s1">'id'</span><span class="p">]</span><span class="o">.</span><span class="n">nunique</span><span class="p">())</span>
 <span class="nb">print</span><span class="p">(</span><span class="s2">"Keys Unique_counts"</span><span class="p">,</span><span class="n">df_new</span><span class="p">[</span><span class="s1">'keys'</span><span class="p">]</span><span class="o">.</span><span class="n">nunique</span><span class="p">())</span>
@@ -15298,22 +15758,7 @@ id                                 0            0.000000
 
 
 <div class="jp-RenderedText jp-OutputArea-output" data-mime-type="text/plain">
-<pre>           upc           ean                    id  \
-0          NaN           NaN  AVpfBXx21cnluZ0-cKxs   
-1          NaN           NaN  AVpfBXx21cnluZ0-cKxs   
-2          NaN           NaN  AVpfBXx21cnluZ0-cKxs   
-3          NaN           NaN  AVpfBXx21cnluZ0-cKxs   
-4  7.63181E+11  7.631810e+11  AVpfEqFRLJeJML431x7w   
-
-                                            keys  
-0                             zoot/z130103201090  
-1                             zoot/z130103201090  
-2                             zoot/z130103201090  
-3                             zoot/z130103201090  
-4  wildpair/colfaxcog,0763181233352,763181233352  
-
-
-UPC Unique_counts 2598
+<pre>UPC Unique_counts 2598
 EAN Unique_counts 2127
 ID Unique_counts 10000
 Keys Unique_counts 9983
@@ -15330,7 +15775,7 @@ Keys Unique_counts 9983
 <div class="jp-Collapser jp-InputCollapser jp-Cell-inputCollapser">
 </div>
 <div class="jp-InputArea jp-Cell-inputArea">
-<div class="jp-InputPrompt jp-InputArea-prompt">In&nbsp;[7]:</div>
+<div class="jp-InputPrompt jp-InputArea-prompt">In&nbsp;[9]:</div>
 <div class="jp-CodeMirrorEditor jp-Editor jp-InputArea-editor" data-type="inline">
      <div class="CodeMirror cm-s-jupyter">
 <div class=" highlight hl-ipython3"><pre><span></span><span class="sd">'''</span>
@@ -15355,7 +15800,7 @@ Keys Unique_counts 9983
 <div class="jp-OutputArea-child">
 
     
-    <div class="jp-OutputPrompt jp-OutputArea-prompt">Out[7]:</div>
+    <div class="jp-OutputPrompt jp-OutputArea-prompt">Out[9]:</div>
 
 
 
@@ -15404,7 +15849,7 @@ Keys Unique_counts 9983
 <div class="jp-Collapser jp-InputCollapser jp-Cell-inputCollapser">
 </div>
 <div class="jp-InputArea jp-Cell-inputArea">
-<div class="jp-InputPrompt jp-InputArea-prompt">In&nbsp;[8]:</div>
+<div class="jp-InputPrompt jp-InputArea-prompt">In&nbsp;[10]:</div>
 <div class="jp-CodeMirrorEditor jp-Editor jp-InputArea-editor" data-type="inline">
      <div class="CodeMirror cm-s-jupyter">
 <div class=" highlight hl-ipython3"><pre><span></span><span class="sd">'''</span>
@@ -15483,7 +15928,7 @@ Index([&#39;id&#39;, &#39;brand&#39;, &#39;categories&#39;, &#39;colors&#39;, &#
 <div class="jp-Collapser jp-InputCollapser jp-Cell-inputCollapser">
 </div>
 <div class="jp-InputArea jp-Cell-inputArea">
-<div class="jp-InputPrompt jp-InputArea-prompt">In&nbsp;[9]:</div>
+<div class="jp-InputPrompt jp-InputArea-prompt">In&nbsp;[11]:</div>
 <div class="jp-CodeMirrorEditor jp-Editor jp-InputArea-editor" data-type="inline">
      <div class="CodeMirror cm-s-jupyter">
 <div class=" highlight hl-ipython3"><pre><span></span><span class="sd">'''</span>
@@ -15527,7 +15972,7 @@ Index([&#39;id&#39;, &#39;brand&#39;, &#39;categories&#39;, &#39;colors&#39;, &#
 <div class="jp-OutputArea-child">
 
     
-    <div class="jp-OutputPrompt jp-OutputArea-prompt">Out[9]:</div>
+    <div class="jp-OutputPrompt jp-OutputArea-prompt">Out[11]:</div>
 
 
 
@@ -15569,7 +16014,7 @@ Name: brand, Length: 190, dtype: float64</pre>
 <div class="jp-Collapser jp-InputCollapser jp-Cell-inputCollapser">
 </div>
 <div class="jp-InputArea jp-Cell-inputArea">
-<div class="jp-InputPrompt jp-InputArea-prompt">In&nbsp;[10]:</div>
+<div class="jp-InputPrompt jp-InputArea-prompt">In&nbsp;[12]:</div>
 <div class="jp-CodeMirrorEditor jp-Editor jp-InputArea-editor" data-type="inline">
      <div class="CodeMirror cm-s-jupyter">
 <div class=" highlight hl-ipython3"><pre><span></span><span class="sd">'''Quickly checking the value counts before we group things</span>
@@ -15628,7 +16073,7 @@ Name: categories, Length: 1064, dtype: int64
 <div class="jp-Collapser jp-InputCollapser jp-Cell-inputCollapser">
 </div>
 <div class="jp-InputArea jp-Cell-inputArea">
-<div class="jp-InputPrompt jp-InputArea-prompt">In&nbsp;[11]:</div>
+<div class="jp-InputPrompt jp-InputArea-prompt">In&nbsp;[13]:</div>
 <div class="jp-CodeMirrorEditor jp-Editor jp-InputArea-editor" data-type="inline">
      <div class="CodeMirror cm-s-jupyter">
 <div class=" highlight hl-ipython3"><pre><span></span><span class="sd">'''</span>
@@ -15707,7 +16152,7 @@ Name: categories, dtype: int64
 <div class="jp-Collapser jp-InputCollapser jp-Cell-inputCollapser">
 </div>
 <div class="jp-InputArea jp-Cell-inputArea">
-<div class="jp-InputPrompt jp-InputArea-prompt">In&nbsp;[12]:</div>
+<div class="jp-InputPrompt jp-InputArea-prompt">In&nbsp;[14]:</div>
 <div class="jp-CodeMirrorEditor jp-Editor jp-InputArea-editor" data-type="inline">
      <div class="CodeMirror cm-s-jupyter">
 <div class=" highlight hl-ipython3"><pre><span></span><span class="n">df_new</span><span class="o">.</span><span class="n">head</span><span class="p">()</span>
@@ -15728,7 +16173,7 @@ Name: categories, dtype: int64
 <div class="jp-OutputArea-child">
 
     
-    <div class="jp-OutputPrompt jp-OutputArea-prompt">Out[12]:</div>
+    <div class="jp-OutputPrompt jp-OutputArea-prompt">Out[14]:</div>
 
 
 
@@ -15912,7 +16357,7 @@ Name: categories, dtype: int64
 <div class="jp-Collapser jp-InputCollapser jp-Cell-inputCollapser">
 </div>
 <div class="jp-InputArea jp-Cell-inputArea">
-<div class="jp-InputPrompt jp-InputArea-prompt">In&nbsp;[13]:</div>
+<div class="jp-InputPrompt jp-InputArea-prompt">In&nbsp;[15]:</div>
 <div class="jp-CodeMirrorEditor jp-Editor jp-InputArea-editor" data-type="inline">
      <div class="CodeMirror cm-s-jupyter">
 <div class=" highlight hl-ipython3"><pre><span></span><span class="c1">#Saving to CSV incase one needs a checkpoint</span>
@@ -15975,7 +16420,7 @@ Name: categories, dtype: int64
 <div class="jp-Collapser jp-InputCollapser jp-Cell-inputCollapser">
 </div>
 <div class="jp-InputArea jp-Cell-inputArea">
-<div class="jp-InputPrompt jp-InputArea-prompt">In&nbsp;[14]:</div>
+<div class="jp-InputPrompt jp-InputArea-prompt">In&nbsp;[16]:</div>
 <div class="jp-CodeMirrorEditor jp-Editor jp-InputArea-editor" data-type="inline">
      <div class="CodeMirror cm-s-jupyter">
 <div class=" highlight hl-ipython3"><pre><span></span><span class="n">df_new</span><span class="p">[</span><span class="s1">'colors'</span><span class="p">]</span><span class="o">.</span><span class="n">fillna</span><span class="p">(</span><span class="s1">'No_Color'</span><span class="p">,</span> <span class="n">inplace</span><span class="o">=</span><span class="kc">True</span><span class="p">)</span>
@@ -15997,7 +16442,7 @@ Name: categories, dtype: int64
 <div class="jp-OutputArea-child">
 
     
-    <div class="jp-OutputPrompt jp-OutputArea-prompt">Out[14]:</div>
+    <div class="jp-OutputPrompt jp-OutputArea-prompt">Out[16]:</div>
 
 
 
@@ -16039,7 +16484,7 @@ Name: brand, Length: 138, dtype: int64</pre>
 <div class="jp-Collapser jp-InputCollapser jp-Cell-inputCollapser">
 </div>
 <div class="jp-InputArea jp-Cell-inputArea">
-<div class="jp-InputPrompt jp-InputArea-prompt">In&nbsp;[15]:</div>
+<div class="jp-InputPrompt jp-InputArea-prompt">In&nbsp;[17]:</div>
 <div class="jp-CodeMirrorEditor jp-Editor jp-InputArea-editor" data-type="inline">
      <div class="CodeMirror cm-s-jupyter">
 <div class=" highlight hl-ipython3"><pre><span></span><span class="k">def</span> <span class="nf">type_conversion</span><span class="p">(</span><span class="n">data1</span><span class="p">):</span>
@@ -16066,6 +16511,7 @@ Name: brand, Length: 138, dtype: int64</pre>
 
 <span class="nb">print</span><span class="p">(</span><span class="s2">"Before typecasting </span><span class="se">\n</span><span class="s2">"</span><span class="p">,</span> <span class="n">df_new</span><span class="o">.</span><span class="n">dtypes</span><span class="p">)</span>
 <span class="n">df_new</span><span class="o">=</span><span class="n">type_conversion</span><span class="p">(</span><span class="n">df_new</span><span class="p">)</span>
+<span class="nb">print</span><span class="p">(</span><span class="s2">"</span><span class="se">\n</span><span class="s2">"</span><span class="p">)</span>
 <span class="nb">print</span><span class="p">(</span><span class="s2">"After typecasting </span><span class="se">\n</span><span class="s2">"</span><span class="p">,</span> <span class="n">df_new</span><span class="o">.</span><span class="n">dtypes</span><span class="p">)</span>
 </pre></div>
 
@@ -16112,6 +16558,8 @@ prices.sourceURLs                  object
 sourceURLs                         object
 price.dateSeen        datetime64[ns, UTC]
 dtype: object
+
+
 After typecasting 
  id                                 object
 brand                              object
@@ -16149,7 +16597,7 @@ dtype: object
 <div class="jp-Collapser jp-InputCollapser jp-Cell-inputCollapser">
 </div>
 <div class="jp-InputArea jp-Cell-inputArea">
-<div class="jp-InputPrompt jp-InputArea-prompt">In&nbsp;[16]:</div>
+<div class="jp-InputPrompt jp-InputArea-prompt">In&nbsp;[18]:</div>
 <div class="jp-CodeMirrorEditor jp-Editor jp-InputArea-editor" data-type="inline">
      <div class="CodeMirror cm-s-jupyter">
 <div class=" highlight hl-ipython3"><pre><span></span><span class="n">df_new</span><span class="o">.</span><span class="n">head</span><span class="p">()</span>
@@ -16170,7 +16618,7 @@ dtype: object
 <div class="jp-OutputArea-child">
 
     
-    <div class="jp-OutputPrompt jp-OutputArea-prompt">Out[16]:</div>
+    <div class="jp-OutputPrompt jp-OutputArea-prompt">Out[18]:</div>
 
 
 
@@ -16354,7 +16802,7 @@ dtype: object
 <div class="jp-Collapser jp-InputCollapser jp-Cell-inputCollapser">
 </div>
 <div class="jp-InputArea jp-Cell-inputArea">
-<div class="jp-InputPrompt jp-InputArea-prompt">In&nbsp;[17]:</div>
+<div class="jp-InputPrompt jp-InputArea-prompt">In&nbsp;[19]:</div>
 <div class="jp-CodeMirrorEditor jp-Editor jp-InputArea-editor" data-type="inline">
      <div class="CodeMirror cm-s-jupyter">
 <div class=" highlight hl-ipython3"><pre><span></span><span class="n">df_new</span><span class="o">.</span><span class="n">shape</span>
@@ -16375,7 +16823,7 @@ dtype: object
 <div class="jp-OutputArea-child">
 
     
-    <div class="jp-OutputPrompt jp-OutputArea-prompt">Out[17]:</div>
+    <div class="jp-OutputPrompt jp-OutputArea-prompt">Out[19]:</div>
 
 
 
@@ -16406,7 +16854,7 @@ dtype: object
 <div class="jp-Collapser jp-InputCollapser jp-Cell-inputCollapser">
 </div>
 <div class="jp-InputArea jp-Cell-inputArea">
-<div class="jp-InputPrompt jp-InputArea-prompt">In&nbsp;[18]:</div>
+<div class="jp-InputPrompt jp-InputArea-prompt">In&nbsp;[20]:</div>
 <div class="jp-CodeMirrorEditor jp-Editor jp-InputArea-editor" data-type="inline">
      <div class="CodeMirror cm-s-jupyter">
 <div class=" highlight hl-ipython3"><pre><span></span><span class="sd">'''</span>
@@ -16437,7 +16885,7 @@ dtype: object
 <div class="jp-OutputArea-child">
 
     
-    <div class="jp-OutputPrompt jp-OutputArea-prompt">Out[18]:</div>
+    <div class="jp-OutputPrompt jp-OutputArea-prompt">Out[20]:</div>
 
 
 
@@ -16496,7 +16944,7 @@ class="
 <div class="jp-Collapser jp-InputCollapser jp-Cell-inputCollapser">
 </div>
 <div class="jp-InputArea jp-Cell-inputArea">
-<div class="jp-InputPrompt jp-InputArea-prompt">In&nbsp;[19]:</div>
+<div class="jp-InputPrompt jp-InputArea-prompt">In&nbsp;[21]:</div>
 <div class="jp-CodeMirrorEditor jp-Editor jp-InputArea-editor" data-type="inline">
      <div class="CodeMirror cm-s-jupyter">
 <div class=" highlight hl-ipython3"><pre><span></span><span class="sd">'''</span>
@@ -16530,7 +16978,7 @@ class="
 <div class="jp-Collapser jp-InputCollapser jp-Cell-inputCollapser">
 </div>
 <div class="jp-InputArea jp-Cell-inputArea">
-<div class="jp-InputPrompt jp-InputArea-prompt">In&nbsp;[20]:</div>
+<div class="jp-InputPrompt jp-InputArea-prompt">In&nbsp;[22]:</div>
 <div class="jp-CodeMirrorEditor jp-Editor jp-InputArea-editor" data-type="inline">
      <div class="CodeMirror cm-s-jupyter">
 <div class=" highlight hl-ipython3"><pre><span></span><span class="n">top_brands</span>
@@ -16551,7 +16999,7 @@ class="
 <div class="jp-OutputArea-child">
 
     
-    <div class="jp-OutputPrompt jp-OutputArea-prompt">Out[20]:</div>
+    <div class="jp-OutputPrompt jp-OutputArea-prompt">Out[22]:</div>
 
 
 
@@ -16582,7 +17030,7 @@ Name: PriceMax, dtype: float64</pre>
 <div class="jp-Collapser jp-InputCollapser jp-Cell-inputCollapser">
 </div>
 <div class="jp-InputArea jp-Cell-inputArea">
-<div class="jp-InputPrompt jp-InputArea-prompt">In&nbsp;[21]:</div>
+<div class="jp-InputPrompt jp-InputArea-prompt">In&nbsp;[23]:</div>
 <div class="jp-CodeMirrorEditor jp-Editor jp-InputArea-editor" data-type="inline">
      <div class="CodeMirror cm-s-jupyter">
 <div class=" highlight hl-ipython3"><pre><span></span><span class="n">bottom_brands</span>
@@ -16603,7 +17051,7 @@ Name: PriceMax, dtype: float64</pre>
 <div class="jp-OutputArea-child">
 
     
-    <div class="jp-OutputPrompt jp-OutputArea-prompt">Out[21]:</div>
+    <div class="jp-OutputPrompt jp-OutputArea-prompt">Out[23]:</div>
 
 
 
@@ -16645,7 +17093,7 @@ Name: PriceMax, dtype: float64</pre>
 <div class="jp-Collapser jp-InputCollapser jp-Cell-inputCollapser">
 </div>
 <div class="jp-InputArea jp-Cell-inputArea">
-<div class="jp-InputPrompt jp-InputArea-prompt">In&nbsp;[22]:</div>
+<div class="jp-InputPrompt jp-InputArea-prompt">In&nbsp;[24]:</div>
 <div class="jp-CodeMirrorEditor jp-Editor jp-InputArea-editor" data-type="inline">
      <div class="CodeMirror cm-s-jupyter">
 <div class=" highlight hl-ipython3"><pre><span></span><span class="sd">'''</span>
@@ -16701,7 +17149,7 @@ class="
 <div class="jp-Collapser jp-InputCollapser jp-Cell-inputCollapser">
 </div>
 <div class="jp-InputArea jp-Cell-inputArea">
-<div class="jp-InputPrompt jp-InputArea-prompt">In&nbsp;[23]:</div>
+<div class="jp-InputPrompt jp-InputArea-prompt">In&nbsp;[25]:</div>
 <div class="jp-CodeMirrorEditor jp-Editor jp-InputArea-editor" data-type="inline">
      <div class="CodeMirror cm-s-jupyter">
 <div class=" highlight hl-ipython3"><pre><span></span><span class="sd">'''</span>
@@ -16768,7 +17216,7 @@ class="
 <div class="jp-Collapser jp-InputCollapser jp-Cell-inputCollapser">
 </div>
 <div class="jp-InputArea jp-Cell-inputArea">
-<div class="jp-InputPrompt jp-InputArea-prompt">In&nbsp;[24]:</div>
+<div class="jp-InputPrompt jp-InputArea-prompt">In&nbsp;[26]:</div>
 <div class="jp-CodeMirrorEditor jp-Editor jp-InputArea-editor" data-type="inline">
      <div class="CodeMirror cm-s-jupyter">
 <div class=" highlight hl-ipython3"><pre><span></span><span class="sd">'''</span>
@@ -16802,7 +17250,7 @@ class="
 <div class="jp-OutputArea-child">
 
     
-    <div class="jp-OutputPrompt jp-OutputArea-prompt">Out[24]:</div>
+    <div class="jp-OutputPrompt jp-OutputArea-prompt">Out[26]:</div>
 
 
 
@@ -16850,7 +17298,7 @@ class="
 <div class="jp-Collapser jp-InputCollapser jp-Cell-inputCollapser">
 </div>
 <div class="jp-InputArea jp-Cell-inputArea">
-<div class="jp-InputPrompt jp-InputArea-prompt">In&nbsp;[25]:</div>
+<div class="jp-InputPrompt jp-InputArea-prompt">In&nbsp;[27]:</div>
 <div class="jp-CodeMirrorEditor jp-Editor jp-InputArea-editor" data-type="inline">
      <div class="CodeMirror cm-s-jupyter">
 <div class=" highlight hl-ipython3"><pre><span></span><span class="sd">'''</span>
@@ -16884,7 +17332,7 @@ class="
 <div class="jp-OutputArea-child">
 
     
-    <div class="jp-OutputPrompt jp-OutputArea-prompt">Out[25]:</div>
+    <div class="jp-OutputPrompt jp-OutputArea-prompt">Out[27]:</div>
 
 
 
@@ -16944,7 +17392,7 @@ class="
 <div class="jp-Collapser jp-InputCollapser jp-Cell-inputCollapser">
 </div>
 <div class="jp-InputArea jp-Cell-inputArea">
-<div class="jp-InputPrompt jp-InputArea-prompt">In&nbsp;[26]:</div>
+<div class="jp-InputPrompt jp-InputArea-prompt">In&nbsp;[28]:</div>
 <div class="jp-CodeMirrorEditor jp-Editor jp-InputArea-editor" data-type="inline">
      <div class="CodeMirror cm-s-jupyter">
 <div class=" highlight hl-ipython3"><pre><span></span><span class="c1">#Price Range by shoe categories</span>
@@ -16961,7 +17409,7 @@ class="
 <div class="jp-Collapser jp-InputCollapser jp-Cell-inputCollapser">
 </div>
 <div class="jp-InputArea jp-Cell-inputArea">
-<div class="jp-InputPrompt jp-InputArea-prompt">In&nbsp;[27]:</div>
+<div class="jp-InputPrompt jp-InputArea-prompt">In&nbsp;[29]:</div>
 <div class="jp-CodeMirrorEditor jp-Editor jp-InputArea-editor" data-type="inline">
      <div class="CodeMirror cm-s-jupyter">
 <div class=" highlight hl-ipython3"><pre><span></span><span class="n">price_range_by_shoe</span>
@@ -16982,7 +17430,7 @@ class="
 <div class="jp-OutputArea-child">
 
     
-    <div class="jp-OutputPrompt jp-OutputArea-prompt">Out[27]:</div>
+    <div class="jp-OutputPrompt jp-OutputArea-prompt">Out[29]:</div>
 
 
 
@@ -17011,7 +17459,7 @@ Name: PriceMax, dtype: float64</pre>
 <div class="jp-Collapser jp-InputCollapser jp-Cell-inputCollapser">
 </div>
 <div class="jp-InputArea jp-Cell-inputArea">
-<div class="jp-InputPrompt jp-InputArea-prompt">In&nbsp;[28]:</div>
+<div class="jp-InputPrompt jp-InputArea-prompt">In&nbsp;[30]:</div>
 <div class="jp-CodeMirrorEditor jp-Editor jp-InputArea-editor" data-type="inline">
      <div class="CodeMirror cm-s-jupyter">
 <div class=" highlight hl-ipython3"><pre><span></span><span class="n">sns</span><span class="o">.</span><span class="n">boxplot</span><span class="p">(</span><span class="n">x</span><span class="o">=</span><span class="s1">'categories'</span><span class="p">,</span> <span class="n">y</span><span class="o">=</span><span class="s1">'PriceMax'</span><span class="p">,</span> <span class="n">data</span><span class="o">=</span> <span class="n">df_new</span><span class="p">)</span>
