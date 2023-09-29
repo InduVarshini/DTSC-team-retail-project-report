@@ -9,6 +9,7 @@ We have publish this report to github pages: https://induvarshini.github.io/DTSC
 
  **Data Source**: 
 https://data.world/datafiniti/womens-shoe-prices
+
 This is a list of 10,000 women's shoes and their product information provided by Datafiniti's Product Database.
 
 **Question of Interest**:
